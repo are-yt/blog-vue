@@ -1,0 +1,29 @@
+.default-bg {
+    background: var(--default-bg);
+}
+.animate-into-bottom {
+    animation: intoBottom 1s forwards;
+}
+@keyframes intoBottom {
+    0% {
+        transform: translateY(50%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+.animate-into-top {
+    animation: intoTop 1s forwards;
+}
+@keyframes intoTop {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

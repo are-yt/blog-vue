@@ -1,0 +1,10 @@
+body {
+    --main-color: #90d7ec;
+    --top-bar-z-index: 5;
+    --top-bar-height: 55px;
+    --footer-z-index: 5;
+    --hide-tools-z-index: 5;
+    --login-z-index: 10;
+    --top-info-height: 60vh;
+    --default-bg: linear-gradient(to right, #edf2ff, #e7f5ff, #e6fcf5, #f8f0fc);
+}
